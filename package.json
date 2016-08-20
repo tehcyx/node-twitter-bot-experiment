@@ -1,0 +1,29 @@
+{
+  "name": "node-twitter-bot-experiment",
+  "version": "1.0.0",
+  "description": "NodeJS Twitter bot experiments",
+  "main": "index.js",
+  "dependencies": {
+    "cron": "^1.1.0",
+    "twitter": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tehcyx/node-twitter-bot-experiment.git"
+  },
+  "keywords": [
+    "bot",
+    "cron",
+    "twitter"
+  ],
+  "author": "Daniel Roth",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tehcyx/node-twitter-bot-experiment/issues"
+  },
+  "homepage": "https://github.com/tehcyx/node-twitter-bot-experiment#readme"
+}
