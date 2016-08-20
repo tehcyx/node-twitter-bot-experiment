@@ -56,7 +56,7 @@ function handleGetUserTimeline(error, result, response) {
             var params_tweet = { status: message, lat: rand_lat, long: rand_lon };
             client.post('statuses/update', params_tweet, handleAnnounceFollower);
 
-            var params_retweet = {};
+            var params_retweet = { id: result[0].id };
             client.post('statuses/retweet/' + result[0].id, params_retweet, handleRetweet);
         } // not trying again on error, due to api-limits
     }
